@@ -1,0 +1,8 @@
+<div class="card">
+    <div class="card-title ml-5 mt-3"><h2>Lista de autores</h2></div>
+      <div class="card-body">
+          <ul *ngFor="let author of author">
+            <li>{{ author.surname | uppercase  }}, {{ author.name }}</li>
+          </ul>
+      </div>
+</div>
